@@ -10,7 +10,7 @@ public class Student {
 			if (a[i].score > tmp) tmp = a[i].score;
 		}
 		for (int i=0; i < 10; ++i) {
-			if (a[i].score >= tmp) return a[i];
+			if (a[i].score == tmp) return a[i];
 		}
 		System.out.println("No one is best");
 		return null;
