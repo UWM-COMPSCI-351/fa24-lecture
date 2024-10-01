@@ -54843,7 +54843,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10000() {
+	public void testA000() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,4,1,3,2,6,};
 		isort.sort(a);
@@ -54855,7 +54855,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10001() {
+	public void testA001() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,5,1,3,2,6,};
 		isort.sort(a);
@@ -54867,7 +54867,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10002() {
+	public void testA002() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,5,4,3,2,6,};
 		isort.sort(a);
@@ -54879,7 +54879,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10003() {
+	public void testA003() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,1,4,3,2,6,};
 		isort.sort(a);
@@ -54891,7 +54891,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10004() {
+	public void testA004() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,1,5,3,2,6,};
 		isort.sort(a);
@@ -54903,7 +54903,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10005() {
+	public void testA005() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,4,5,3,2,6,};
 		isort.sort(a);
@@ -54915,7 +54915,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10006() {
+	public void testA006() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,4,3,5,2,6,};
 		isort.sort(a);
@@ -54927,7 +54927,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10007() {
+	public void testA007() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,1,3,5,2,6,};
 		isort.sort(a);
@@ -54939,7 +54939,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10008() {
+	public void testA008() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,1,4,5,2,6,};
 		isort.sort(a);
@@ -54951,7 +54951,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10009() {
+	public void testA009() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,3,4,5,2,6,};
 		isort.sort(a);
@@ -54963,7 +54963,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10010() {
+	public void testA010() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,3,1,5,2,6,};
 		isort.sort(a);
@@ -54975,7 +54975,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10011() {
+	public void testA011() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,4,1,5,2,6,};
 		isort.sort(a);
@@ -54987,7 +54987,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10012() {
+	public void testA012() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,4,1,5,3,6,};
 		isort.sort(a);
@@ -54999,7 +54999,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10013() {
+	public void testA013() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,2,1,5,3,6,};
 		isort.sort(a);
@@ -55011,7 +55011,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10014() {
+	public void testA014() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,2,4,5,3,6,};
 		isort.sort(a);
@@ -55023,7 +55023,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10015() {
+	public void testA015() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,1,4,5,3,6,};
 		isort.sort(a);
@@ -55035,7 +55035,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10016() {
+	public void testA016() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,1,2,5,3,6,};
 		isort.sort(a);
@@ -55047,7 +55047,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10017() {
+	public void testA017() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,4,2,5,3,6,};
 		isort.sort(a);
@@ -55059,7 +55059,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10018() {
+	public void testA018() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,4,2,1,3,6,};
 		isort.sort(a);
@@ -55071,7 +55071,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10019() {
+	public void testA019() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,5,2,1,3,6,};
 		isort.sort(a);
@@ -55083,7 +55083,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10020() {
+	public void testA020() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,5,4,1,3,6,};
 		isort.sort(a);
@@ -55095,7 +55095,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10021() {
+	public void testA021() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,2,4,1,3,6,};
 		isort.sort(a);
@@ -55107,7 +55107,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10022() {
+	public void testA022() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,2,5,1,3,6,};
 		isort.sort(a);
@@ -55119,7 +55119,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10023() {
+	public void testA023() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,4,5,1,3,6,};
 		isort.sort(a);
@@ -55131,7 +55131,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10024() {
+	public void testA024() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,1,5,4,3,6,};
 		isort.sort(a);
@@ -55143,7 +55143,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10025() {
+	public void testA025() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,2,5,4,3,6,};
 		isort.sort(a);
@@ -55155,7 +55155,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10026() {
+	public void testA026() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,2,1,4,3,6,};
 		isort.sort(a);
@@ -55167,7 +55167,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10027() {
+	public void testA027() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,5,1,4,3,6,};
 		isort.sort(a);
@@ -55179,7 +55179,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10028() {
+	public void testA028() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,5,2,4,3,6,};
 		isort.sort(a);
@@ -55191,7 +55191,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10029() {
+	public void testA029() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,1,2,4,3,6,};
 		isort.sort(a);
@@ -55203,7 +55203,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10030() {
+	public void testA030() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,1,4,2,3,6,};
 		isort.sort(a);
@@ -55215,7 +55215,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10031() {
+	public void testA031() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,5,4,2,3,6,};
 		isort.sort(a);
@@ -55227,7 +55227,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10032() {
+	public void testA032() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,5,1,2,3,6,};
 		isort.sort(a);
@@ -55239,7 +55239,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10033() {
+	public void testA033() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,4,1,2,3,6,};
 		isort.sort(a);
@@ -55251,7 +55251,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10034() {
+	public void testA034() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,4,5,2,3,6,};
 		isort.sort(a);
@@ -55263,7 +55263,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10035() {
+	public void testA035() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,1,5,2,3,6,};
 		isort.sort(a);
@@ -55275,7 +55275,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10036() {
+	public void testA036() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,1,5,2,4,6,};
 		isort.sort(a);
@@ -55287,7 +55287,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10037() {
+	public void testA037() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,3,5,2,4,6,};
 		isort.sort(a);
@@ -55299,7 +55299,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10038() {
+	public void testA038() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,3,1,2,4,6,};
 		isort.sort(a);
@@ -55311,7 +55311,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10039() {
+	public void testA039() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,5,1,2,4,6,};
 		isort.sort(a);
@@ -55323,7 +55323,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10040() {
+	public void testA040() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,5,3,2,4,6,};
 		isort.sort(a);
@@ -55335,7 +55335,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10041() {
+	public void testA041() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,1,3,2,4,6,};
 		isort.sort(a);
@@ -55347,7 +55347,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10042() {
+	public void testA042() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,1,3,5,4,6,};
 		isort.sort(a);
@@ -55359,7 +55359,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10043() {
+	public void testA043() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,2,3,5,4,6,};
 		isort.sort(a);
@@ -55371,7 +55371,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10044() {
+	public void testA044() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,2,1,5,4,6,};
 		isort.sort(a);
@@ -55383,7 +55383,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10045() {
+	public void testA045() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,3,1,5,4,6,};
 		isort.sort(a);
@@ -55395,7 +55395,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10046() {
+	public void testA046() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,3,2,5,4,6,};
 		isort.sort(a);
@@ -55407,7 +55407,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10047() {
+	public void testA047() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,1,2,5,4,6,};
 		isort.sort(a);
@@ -55419,7 +55419,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10048() {
+	public void testA048() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,5,2,1,4,6,};
 		isort.sort(a);
@@ -55431,7 +55431,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10049() {
+	public void testA049() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,3,2,1,4,6,};
 		isort.sort(a);
@@ -55443,7 +55443,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10050() {
+	public void testA050() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,3,5,1,4,6,};
 		isort.sort(a);
@@ -55455,7 +55455,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10051() {
+	public void testA051() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,2,5,1,4,6,};
 		isort.sort(a);
@@ -55467,7 +55467,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10052() {
+	public void testA052() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,2,3,1,4,6,};
 		isort.sort(a);
@@ -55479,7 +55479,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10053() {
+	public void testA053() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,5,3,1,4,6,};
 		isort.sort(a);
@@ -55491,7 +55491,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10054() {
+	public void testA054() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,5,1,3,4,6,};
 		isort.sort(a);
@@ -55503,7 +55503,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10055() {
+	public void testA055() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,2,1,3,4,6,};
 		isort.sort(a);
@@ -55515,7 +55515,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10056() {
+	public void testA056() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,2,5,3,4,6,};
 		isort.sort(a);
@@ -55527,7 +55527,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10057() {
+	public void testA057() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,1,5,3,4,6,};
 		isort.sort(a);
@@ -55539,7 +55539,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10058() {
+	public void testA058() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,1,2,3,4,6,};
 		isort.sort(a);
@@ -55551,7 +55551,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10059() {
+	public void testA059() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,5,2,3,4,6,};
 		isort.sort(a);
@@ -55563,7 +55563,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10060() {
+	public void testA060() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,5,2,3,1,6,};
 		isort.sort(a);
@@ -55575,7 +55575,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10061() {
+	public void testA061() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,4,2,3,1,6,};
 		isort.sort(a);
@@ -55587,7 +55587,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10062() {
+	public void testA062() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,4,5,3,1,6,};
 		isort.sort(a);
@@ -55599,7 +55599,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10063() {
+	public void testA063() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,2,5,3,1,6,};
 		isort.sort(a);
@@ -55611,7 +55611,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10064() {
+	public void testA064() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,2,4,3,1,6,};
 		isort.sort(a);
@@ -55623,7 +55623,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10065() {
+	public void testA065() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,5,4,3,1,6,};
 		isort.sort(a);
@@ -55635,7 +55635,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10066() {
+	public void testA066() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,5,4,2,1,6,};
 		isort.sort(a);
@@ -55647,7 +55647,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10067() {
+	public void testA067() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,3,4,2,1,6,};
 		isort.sort(a);
@@ -55659,7 +55659,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10068() {
+	public void testA068() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,3,5,2,1,6,};
 		isort.sort(a);
@@ -55671,7 +55671,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10069() {
+	public void testA069() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,4,5,2,1,6,};
 		isort.sort(a);
@@ -55683,7 +55683,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10070() {
+	public void testA070() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,4,3,2,1,6,};
 		isort.sort(a);
@@ -55695,7 +55695,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10071() {
+	public void testA071() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,5,3,2,1,6,};
 		isort.sort(a);
@@ -55707,7 +55707,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10072() {
+	public void testA072() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,2,3,5,1,6,};
 		isort.sort(a);
@@ -55719,7 +55719,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10073() {
+	public void testA073() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,4,3,5,1,6,};
 		isort.sort(a);
@@ -55731,7 +55731,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10074() {
+	public void testA074() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,4,2,5,1,6,};
 		isort.sort(a);
@@ -55743,7 +55743,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10075() {
+	public void testA075() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,3,2,5,1,6,};
 		isort.sort(a);
@@ -55755,7 +55755,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10076() {
+	public void testA076() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,3,4,5,1,6,};
 		isort.sort(a);
@@ -55767,7 +55767,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10077() {
+	public void testA077() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,2,4,5,1,6,};
 		isort.sort(a);
@@ -55779,7 +55779,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10078() {
+	public void testA078() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,2,5,4,1,6,};
 		isort.sort(a);
@@ -55791,7 +55791,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10079() {
+	public void testA079() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,3,5,4,1,6,};
 		isort.sort(a);
@@ -55803,7 +55803,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10080() {
+	public void testA080() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,3,2,4,1,6,};
 		isort.sort(a);
@@ -55815,7 +55815,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10081() {
+	public void testA081() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,5,2,4,1,6,};
 		isort.sort(a);
@@ -55827,7 +55827,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10082() {
+	public void testA082() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,5,3,4,1,6,};
 		isort.sort(a);
@@ -55839,7 +55839,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10083() {
+	public void testA083() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,2,3,4,1,6,};
 		isort.sort(a);
@@ -55851,7 +55851,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10084() {
+	public void testA084() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,2,3,4,1,5,};
 		isort.sort(a);
@@ -55863,7 +55863,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10085() {
+	public void testA085() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,6,3,4,1,5,};
 		isort.sort(a);
@@ -55875,7 +55875,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10086() {
+	public void testA086() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,6,2,4,1,5,};
 		isort.sort(a);
@@ -55887,7 +55887,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10087() {
+	public void testA087() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,3,2,4,1,5,};
 		isort.sort(a);
@@ -55899,7 +55899,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10088() {
+	public void testA088() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,3,6,4,1,5,};
 		isort.sort(a);
@@ -55911,7 +55911,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10089() {
+	public void testA089() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,2,6,4,1,5,};
 		isort.sort(a);
@@ -55923,7 +55923,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10090() {
+	public void testA090() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,2,6,3,1,5,};
 		isort.sort(a);
@@ -55935,7 +55935,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10091() {
+	public void testA091() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,4,6,3,1,5,};
 		isort.sort(a);
@@ -55947,7 +55947,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10092() {
+	public void testA092() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,4,2,3,1,5,};
 		isort.sort(a);
@@ -55959,7 +55959,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10093() {
+	public void testA093() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,6,2,3,1,5,};
 		isort.sort(a);
@@ -55971,7 +55971,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10094() {
+	public void testA094() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,6,4,3,1,5,};
 		isort.sort(a);
@@ -55983,7 +55983,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10095() {
+	public void testA095() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,2,4,3,1,5,};
 		isort.sort(a);
@@ -55995,7 +55995,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10096() {
+	public void testA096() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,3,4,2,1,5,};
 		isort.sort(a);
@@ -56007,7 +56007,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10097() {
+	public void testA097() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,6,4,2,1,5,};
 		isort.sort(a);
@@ -56019,7 +56019,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10098() {
+	public void testA098() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,6,3,2,1,5,};
 		isort.sort(a);
@@ -56031,7 +56031,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10099() {
+	public void testA099() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,4,3,2,1,5,};
 		isort.sort(a);
@@ -56043,7 +56043,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10100() {
+	public void testA100() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,4,6,2,1,5,};
 		isort.sort(a);
@@ -56055,7 +56055,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10101() {
+	public void testA101() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,3,6,2,1,5,};
 		isort.sort(a);
@@ -56067,7 +56067,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10102() {
+	public void testA102() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,3,2,6,1,5,};
 		isort.sort(a);
@@ -56079,7 +56079,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10103() {
+	public void testA103() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,4,2,6,1,5,};
 		isort.sort(a);
@@ -56091,7 +56091,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10104() {
+	public void testA104() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,4,3,6,1,5,};
 		isort.sort(a);
@@ -56103,7 +56103,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10105() {
+	public void testA105() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,2,3,6,1,5,};
 		isort.sort(a);
@@ -56115,7 +56115,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10106() {
+	public void testA106() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,2,4,6,1,5,};
 		isort.sort(a);
@@ -56127,7 +56127,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10107() {
+	public void testA107() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,3,4,6,1,5,};
 		isort.sort(a);
@@ -56139,7 +56139,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10108() {
+	public void testA108() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,3,4,6,2,5,};
 		isort.sort(a);
@@ -56151,7 +56151,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10109() {
+	public void testA109() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,1,4,6,2,5,};
 		isort.sort(a);
@@ -56163,7 +56163,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10110() {
+	public void testA110() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,1,3,6,2,5,};
 		isort.sort(a);
@@ -56175,7 +56175,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10111() {
+	public void testA111() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,4,3,6,2,5,};
 		isort.sort(a);
@@ -56187,7 +56187,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10112() {
+	public void testA112() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,4,1,6,2,5,};
 		isort.sort(a);
@@ -56199,7 +56199,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10113() {
+	public void testA113() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,3,1,6,2,5,};
 		isort.sort(a);
@@ -56211,7 +56211,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10114() {
+	public void testA114() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,3,1,4,2,5,};
 		isort.sort(a);
@@ -56223,7 +56223,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10115() {
+	public void testA115() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,6,1,4,2,5,};
 		isort.sort(a);
@@ -56235,7 +56235,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10116() {
+	public void testA116() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,6,3,4,2,5,};
 		isort.sort(a);
@@ -56247,7 +56247,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10117() {
+	public void testA117() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,1,3,4,2,5,};
 		isort.sort(a);
@@ -56259,7 +56259,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10118() {
+	public void testA118() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,1,6,4,2,5,};
 		isort.sort(a);
@@ -56271,7 +56271,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10119() {
+	public void testA119() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,3,6,4,2,5,};
 		isort.sort(a);
@@ -56283,7 +56283,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10120() {
+	public void testA120() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,4,6,3,2,5,};
 		isort.sort(a);
@@ -56295,7 +56295,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10121() {
+	public void testA121() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,1,6,3,2,5,};
 		isort.sort(a);
@@ -56307,7 +56307,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10122() {
+	public void testA122() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,1,4,3,2,5,};
 		isort.sort(a);
@@ -56319,7 +56319,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10123() {
+	public void testA123() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,6,4,3,2,5,};
 		isort.sort(a);
@@ -56331,7 +56331,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10124() {
+	public void testA124() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,6,1,3,2,5,};
 		isort.sort(a);
@@ -56343,7 +56343,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10125() {
+	public void testA125() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,4,1,3,2,5,};
 		isort.sort(a);
@@ -56355,7 +56355,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10126() {
+	public void testA126() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,4,3,1,2,5,};
 		isort.sort(a);
@@ -56367,7 +56367,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10127() {
+	public void testA127() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,6,3,1,2,5,};
 		isort.sort(a);
@@ -56379,7 +56379,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10128() {
+	public void testA128() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,6,4,1,2,5,};
 		isort.sort(a);
@@ -56391,7 +56391,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10129() {
+	public void testA129() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,3,4,1,2,5,};
 		isort.sort(a);
@@ -56403,7 +56403,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10130() {
+	public void testA130() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,3,6,1,2,5,};
 		isort.sort(a);
@@ -56415,7 +56415,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10131() {
+	public void testA131() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,4,6,1,2,5,};
 		isort.sort(a);
@@ -56427,7 +56427,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10132() {
+	public void testA132() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,4,6,1,3,5,};
 		isort.sort(a);
@@ -56439,7 +56439,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10133() {
+	public void testA133() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,2,6,1,3,5,};
 		isort.sort(a);
@@ -56451,7 +56451,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10134() {
+	public void testA134() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,2,4,1,3,5,};
 		isort.sort(a);
@@ -56463,7 +56463,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10135() {
+	public void testA135() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,6,4,1,3,5,};
 		isort.sort(a);
@@ -56475,7 +56475,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10136() {
+	public void testA136() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,6,2,1,3,5,};
 		isort.sort(a);
@@ -56487,7 +56487,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10137() {
+	public void testA137() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,4,2,1,3,5,};
 		isort.sort(a);
@@ -56499,7 +56499,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10138() {
+	public void testA138() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,4,2,6,3,5,};
 		isort.sort(a);
@@ -56511,7 +56511,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10139() {
+	public void testA139() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,1,2,6,3,5,};
 		isort.sort(a);
@@ -56523,7 +56523,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10140() {
+	public void testA140() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,1,4,6,3,5,};
 		isort.sort(a);
@@ -56535,7 +56535,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10141() {
+	public void testA141() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,2,4,6,3,5,};
 		isort.sort(a);
@@ -56547,7 +56547,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10142() {
+	public void testA142() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,2,1,6,3,5,};
 		isort.sort(a);
@@ -56559,7 +56559,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10143() {
+	public void testA143() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,4,1,6,3,5,};
 		isort.sort(a);
@@ -56571,7 +56571,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10144() {
+	public void testA144() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,6,1,4,3,5,};
 		isort.sort(a);
@@ -56583,7 +56583,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10145() {
+	public void testA145() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,2,1,4,3,5,};
 		isort.sort(a);
@@ -56595,7 +56595,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10146() {
+	public void testA146() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,2,6,4,3,5,};
 		isort.sort(a);
@@ -56607,7 +56607,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10147() {
+	public void testA147() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,1,6,4,3,5,};
 		isort.sort(a);
@@ -56619,7 +56619,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10148() {
+	public void testA148() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,1,2,4,3,5,};
 		isort.sort(a);
@@ -56631,7 +56631,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10149() {
+	public void testA149() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,6,2,4,3,5,};
 		isort.sort(a);
@@ -56643,7 +56643,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10150() {
+	public void testA150() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,6,4,2,3,5,};
 		isort.sort(a);
@@ -56655,7 +56655,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10151() {
+	public void testA151() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,1,4,2,3,5,};
 		isort.sort(a);
@@ -56667,7 +56667,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10152() {
+	public void testA152() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,1,6,2,3,5,};
 		isort.sort(a);
@@ -56679,7 +56679,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10153() {
+	public void testA153() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,4,6,2,3,5,};
 		isort.sort(a);
@@ -56691,7 +56691,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10154() {
+	public void testA154() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,4,1,2,3,5,};
 		isort.sort(a);
@@ -56703,7 +56703,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10155() {
+	public void testA155() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,6,1,2,3,5,};
 		isort.sort(a);
@@ -56715,7 +56715,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10156() {
+	public void testA156() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,6,1,2,4,5,};
 		isort.sort(a);
@@ -56727,7 +56727,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10157() {
+	public void testA157() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,3,1,2,4,5,};
 		isort.sort(a);
@@ -56739,7 +56739,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10158() {
+	public void testA158() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,3,6,2,4,5,};
 		isort.sort(a);
@@ -56751,7 +56751,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10159() {
+	public void testA159() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,1,6,2,4,5,};
 		isort.sort(a);
@@ -56763,7 +56763,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10160() {
+	public void testA160() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,1,3,2,4,5,};
 		isort.sort(a);
@@ -56775,7 +56775,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10161() {
+	public void testA161() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,6,3,2,4,5,};
 		isort.sort(a);
@@ -56787,7 +56787,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10162() {
+	public void testA162() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,6,3,1,4,5,};
 		isort.sort(a);
@@ -56799,7 +56799,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10163() {
+	public void testA163() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,2,3,1,4,5,};
 		isort.sort(a);
@@ -56811,7 +56811,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10164() {
+	public void testA164() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,2,6,1,4,5,};
 		isort.sort(a);
@@ -56823,7 +56823,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10165() {
+	public void testA165() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,3,6,1,4,5,};
 		isort.sort(a);
@@ -56835,7 +56835,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10166() {
+	public void testA166() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,3,2,1,4,5,};
 		isort.sort(a);
@@ -56847,7 +56847,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10167() {
+	public void testA167() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,6,2,1,4,5,};
 		isort.sort(a);
@@ -56859,7 +56859,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10168() {
+	public void testA168() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,1,2,6,4,5,};
 		isort.sort(a);
@@ -56871,7 +56871,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10169() {
+	public void testA169() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,3,2,6,4,5,};
 		isort.sort(a);
@@ -56883,7 +56883,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10170() {
+	public void testA170() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,3,1,6,4,5,};
 		isort.sort(a);
@@ -56895,7 +56895,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10171() {
+	public void testA171() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,2,1,6,4,5,};
 		isort.sort(a);
@@ -56907,7 +56907,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10172() {
+	public void testA172() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,2,3,6,4,5,};
 		isort.sort(a);
@@ -56919,7 +56919,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10173() {
+	public void testA173() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,1,3,6,4,5,};
 		isort.sort(a);
@@ -56931,7 +56931,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10174() {
+	public void testA174() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,1,6,3,4,5,};
 		isort.sort(a);
@@ -56943,7 +56943,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10175() {
+	public void testA175() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,2,6,3,4,5,};
 		isort.sort(a);
@@ -56955,7 +56955,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10176() {
+	public void testA176() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,2,1,3,4,5,};
 		isort.sort(a);
@@ -56967,7 +56967,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10177() {
+	public void testA177() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,6,1,3,4,5,};
 		isort.sort(a);
@@ -56979,7 +56979,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10178() {
+	public void testA178() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,6,2,3,4,5,};
 		isort.sort(a);
@@ -56991,7 +56991,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10179() {
+	public void testA179() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,1,2,3,4,5,};
 		isort.sort(a);
@@ -57003,7 +57003,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10180() {
+	public void testA180() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,1,2,3,6,5,};
 		isort.sort(a);
@@ -57015,7 +57015,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10181() {
+	public void testA181() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,4,2,3,6,5,};
 		isort.sort(a);
@@ -57027,7 +57027,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10182() {
+	public void testA182() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,4,1,3,6,5,};
 		isort.sort(a);
@@ -57039,7 +57039,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10183() {
+	public void testA183() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,2,1,3,6,5,};
 		isort.sort(a);
@@ -57051,7 +57051,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10184() {
+	public void testA184() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,2,4,3,6,5,};
 		isort.sort(a);
@@ -57063,7 +57063,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10185() {
+	public void testA185() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,1,4,3,6,5,};
 		isort.sort(a);
@@ -57075,7 +57075,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10186() {
+	public void testA186() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,1,4,2,6,5,};
 		isort.sort(a);
@@ -57087,7 +57087,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10187() {
+	public void testA187() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,3,4,2,6,5,};
 		isort.sort(a);
@@ -57099,7 +57099,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10188() {
+	public void testA188() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,3,1,2,6,5,};
 		isort.sort(a);
@@ -57111,7 +57111,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10189() {
+	public void testA189() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,4,1,2,6,5,};
 		isort.sort(a);
@@ -57123,7 +57123,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10190() {
+	public void testA190() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,4,3,2,6,5,};
 		isort.sort(a);
@@ -57135,7 +57135,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10191() {
+	public void testA191() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,1,3,2,6,5,};
 		isort.sort(a);
@@ -57147,7 +57147,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10192() {
+	public void testA192() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,2,3,1,6,5,};
 		isort.sort(a);
@@ -57159,7 +57159,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10193() {
+	public void testA193() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,4,3,1,6,5,};
 		isort.sort(a);
@@ -57171,7 +57171,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10194() {
+	public void testA194() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,4,2,1,6,5,};
 		isort.sort(a);
@@ -57183,7 +57183,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10195() {
+	public void testA195() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,3,2,1,6,5,};
 		isort.sort(a);
@@ -57195,7 +57195,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10196() {
+	public void testA196() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,3,4,1,6,5,};
 		isort.sort(a);
@@ -57207,7 +57207,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10197() {
+	public void testA197() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,2,4,1,6,5,};
 		isort.sort(a);
@@ -57219,7 +57219,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10198() {
+	public void testA198() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,2,1,4,6,5,};
 		isort.sort(a);
@@ -57231,7 +57231,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10199() {
+	public void testA199() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,3,1,4,6,5,};
 		isort.sort(a);
@@ -57243,7 +57243,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10200() {
+	public void testA200() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,3,2,4,6,5,};
 		isort.sort(a);
@@ -57255,7 +57255,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10201() {
+	public void testA201() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,1,2,4,6,5,};
 		isort.sort(a);
@@ -57267,7 +57267,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10202() {
+	public void testA202() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,1,3,4,6,5,};
 		isort.sort(a);
@@ -57279,7 +57279,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10203() {
+	public void testA203() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,2,3,4,6,5,};
 		isort.sort(a);
@@ -57291,7 +57291,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10204() {
+	public void testA204() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,5,3,4,6,2,};
 		isort.sort(a);
@@ -57303,7 +57303,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10205() {
+	public void testA205() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,1,3,4,6,2,};
 		isort.sort(a);
@@ -57315,7 +57315,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10206() {
+	public void testA206() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,1,5,4,6,2,};
 		isort.sort(a);
@@ -57327,7 +57327,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10207() {
+	public void testA207() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,3,5,4,6,2,};
 		isort.sort(a);
@@ -57339,7 +57339,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10208() {
+	public void testA208() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,3,1,4,6,2,};
 		isort.sort(a);
@@ -57351,7 +57351,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10209() {
+	public void testA209() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,5,1,4,6,2,};
 		isort.sort(a);
@@ -57363,7 +57363,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10210() {
+	public void testA210() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,5,1,3,6,2,};
 		isort.sort(a);
@@ -57375,7 +57375,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10211() {
+	public void testA211() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,4,1,3,6,2,};
 		isort.sort(a);
@@ -57387,7 +57387,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10212() {
+	public void testA212() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,4,5,3,6,2,};
 		isort.sort(a);
@@ -57399,7 +57399,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10213() {
+	public void testA213() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,1,5,3,6,2,};
 		isort.sort(a);
@@ -57411,7 +57411,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10214() {
+	public void testA214() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,1,4,3,6,2,};
 		isort.sort(a);
@@ -57423,7 +57423,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10215() {
+	public void testA215() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,5,4,3,6,2,};
 		isort.sort(a);
@@ -57435,7 +57435,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10216() {
+	public void testA216() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,3,4,5,6,2,};
 		isort.sort(a);
@@ -57447,7 +57447,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10217() {
+	public void testA217() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,1,4,5,6,2,};
 		isort.sort(a);
@@ -57459,7 +57459,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10218() {
+	public void testA218() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,1,3,5,6,2,};
 		isort.sort(a);
@@ -57471,7 +57471,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10219() {
+	public void testA219() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,4,3,5,6,2,};
 		isort.sort(a);
@@ -57483,7 +57483,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10220() {
+	public void testA220() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,4,1,5,6,2,};
 		isort.sort(a);
@@ -57495,7 +57495,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10221() {
+	public void testA221() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,3,1,5,6,2,};
 		isort.sort(a);
@@ -57507,7 +57507,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10222() {
+	public void testA222() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,3,5,1,6,2,};
 		isort.sort(a);
@@ -57519,7 +57519,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10223() {
+	public void testA223() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,4,5,1,6,2,};
 		isort.sort(a);
@@ -57531,7 +57531,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10224() {
+	public void testA224() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,4,3,1,6,2,};
 		isort.sort(a);
@@ -57543,7 +57543,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10225() {
+	public void testA225() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,5,3,1,6,2,};
 		isort.sort(a);
@@ -57555,7 +57555,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10226() {
+	public void testA226() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,5,4,1,6,2,};
 		isort.sort(a);
@@ -57567,7 +57567,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10227() {
+	public void testA227() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,3,4,1,6,2,};
 		isort.sort(a);
@@ -57579,7 +57579,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10228() {
+	public void testA228() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,3,4,1,5,2,};
 		isort.sort(a);
@@ -57591,7 +57591,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10229() {
+	public void testA229() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,6,4,1,5,2,};
 		isort.sort(a);
@@ -57603,7 +57603,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10230() {
+	public void testA230() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,6,3,1,5,2,};
 		isort.sort(a);
@@ -57615,7 +57615,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10231() {
+	public void testA231() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,4,3,1,5,2,};
 		isort.sort(a);
@@ -57627,7 +57627,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10232() {
+	public void testA232() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,4,6,1,5,2,};
 		isort.sort(a);
@@ -57639,7 +57639,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10233() {
+	public void testA233() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,3,6,1,5,2,};
 		isort.sort(a);
@@ -57651,7 +57651,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10234() {
+	public void testA234() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,3,6,4,5,2,};
 		isort.sort(a);
@@ -57663,7 +57663,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10235() {
+	public void testA235() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,1,6,4,5,2,};
 		isort.sort(a);
@@ -57675,7 +57675,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10236() {
+	public void testA236() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,1,3,4,5,2,};
 		isort.sort(a);
@@ -57687,7 +57687,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10237() {
+	public void testA237() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,6,3,4,5,2,};
 		isort.sort(a);
@@ -57699,7 +57699,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10238() {
+	public void testA238() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,6,1,4,5,2,};
 		isort.sort(a);
@@ -57711,7 +57711,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10239() {
+	public void testA239() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,3,1,4,5,2,};
 		isort.sort(a);
@@ -57723,7 +57723,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10240() {
+	public void testA240() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,4,1,3,5,2,};
 		isort.sort(a);
@@ -57735,7 +57735,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10241() {
+	public void testA241() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,6,1,3,5,2,};
 		isort.sort(a);
@@ -57747,7 +57747,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10242() {
+	public void testA242() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,6,4,3,5,2,};
 		isort.sort(a);
@@ -57759,7 +57759,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10243() {
+	public void testA243() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,1,4,3,5,2,};
 		isort.sort(a);
@@ -57771,7 +57771,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10244() {
+	public void testA244() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,1,6,3,5,2,};
 		isort.sort(a);
@@ -57783,7 +57783,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10245() {
+	public void testA245() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,4,6,3,5,2,};
 		isort.sort(a);
@@ -57795,7 +57795,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10246() {
+	public void testA246() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,4,3,6,5,2,};
 		isort.sort(a);
@@ -57807,7 +57807,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10247() {
+	public void testA247() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,1,3,6,5,2,};
 		isort.sort(a);
@@ -57819,7 +57819,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10248() {
+	public void testA248() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,1,4,6,5,2,};
 		isort.sort(a);
@@ -57831,7 +57831,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10249() {
+	public void testA249() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,3,4,6,5,2,};
 		isort.sort(a);
@@ -57843,7 +57843,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10250() {
+	public void testA250() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,3,1,6,5,2,};
 		isort.sort(a);
@@ -57855,7 +57855,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10251() {
+	public void testA251() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,4,1,6,5,2,};
 		isort.sort(a);
@@ -57867,7 +57867,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10252() {
+	public void testA252() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,4,1,6,3,2,};
 		isort.sort(a);
@@ -57879,7 +57879,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10253() {
+	public void testA253() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,5,1,6,3,2,};
 		isort.sort(a);
@@ -57891,7 +57891,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10254() {
+	public void testA254() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,5,4,6,3,2,};
 		isort.sort(a);
@@ -57903,7 +57903,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10255() {
+	public void testA255() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,1,4,6,3,2,};
 		isort.sort(a);
@@ -57915,7 +57915,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10256() {
+	public void testA256() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,1,5,6,3,2,};
 		isort.sort(a);
@@ -57927,7 +57927,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10257() {
+	public void testA257() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,4,5,6,3,2,};
 		isort.sort(a);
@@ -57939,7 +57939,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10258() {
+	public void testA258() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,4,5,1,3,2,};
 		isort.sort(a);
@@ -57951,7 +57951,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10259() {
+	public void testA259() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,6,5,1,3,2,};
 		isort.sort(a);
@@ -57963,7 +57963,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10260() {
+	public void testA260() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,6,4,1,3,2,};
 		isort.sort(a);
@@ -57975,7 +57975,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10261() {
+	public void testA261() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,5,4,1,3,2,};
 		isort.sort(a);
@@ -57987,7 +57987,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10262() {
+	public void testA262() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,5,6,1,3,2,};
 		isort.sort(a);
@@ -57999,7 +57999,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10263() {
+	public void testA263() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,4,6,1,3,2,};
 		isort.sort(a);
@@ -58011,7 +58011,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10264() {
+	public void testA264() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,1,6,4,3,2,};
 		isort.sort(a);
@@ -58023,7 +58023,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10265() {
+	public void testA265() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,5,6,4,3,2,};
 		isort.sort(a);
@@ -58035,7 +58035,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10266() {
+	public void testA266() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,5,1,4,3,2,};
 		isort.sort(a);
@@ -58047,7 +58047,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10267() {
+	public void testA267() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,6,1,4,3,2,};
 		isort.sort(a);
@@ -58059,7 +58059,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10268() {
+	public void testA268() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,6,5,4,3,2,};
 		isort.sort(a);
@@ -58071,7 +58071,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10269() {
+	public void testA269() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,1,5,4,3,2,};
 		isort.sort(a);
@@ -58083,7 +58083,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10270() {
+	public void testA270() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,1,4,5,3,2,};
 		isort.sort(a);
@@ -58095,7 +58095,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10271() {
+	public void testA271() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,6,4,5,3,2,};
 		isort.sort(a);
@@ -58107,7 +58107,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10272() {
+	public void testA272() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,6,1,5,3,2,};
 		isort.sort(a);
@@ -58119,7 +58119,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10273() {
+	public void testA273() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,4,1,5,3,2,};
 		isort.sort(a);
@@ -58131,7 +58131,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10274() {
+	public void testA274() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,4,6,5,3,2,};
 		isort.sort(a);
@@ -58143,7 +58143,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10275() {
+	public void testA275() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,1,6,5,3,2,};
 		isort.sort(a);
@@ -58155,7 +58155,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10276() {
+	public void testA276() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,1,6,5,4,2,};
 		isort.sort(a);
@@ -58167,7 +58167,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10277() {
+	public void testA277() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,3,6,5,4,2,};
 		isort.sort(a);
@@ -58179,7 +58179,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10278() {
+	public void testA278() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,3,1,5,4,2,};
 		isort.sort(a);
@@ -58191,7 +58191,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10279() {
+	public void testA279() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,6,1,5,4,2,};
 		isort.sort(a);
@@ -58203,7 +58203,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10280() {
+	public void testA280() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,6,3,5,4,2,};
 		isort.sort(a);
@@ -58215,7 +58215,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10281() {
+	public void testA281() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,1,3,5,4,2,};
 		isort.sort(a);
@@ -58227,7 +58227,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10282() {
+	public void testA282() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,1,3,6,4,2,};
 		isort.sort(a);
@@ -58239,7 +58239,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10283() {
+	public void testA283() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,5,3,6,4,2,};
 		isort.sort(a);
@@ -58251,7 +58251,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10284() {
+	public void testA284() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,5,1,6,4,2,};
 		isort.sort(a);
@@ -58263,7 +58263,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10285() {
+	public void testA285() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,3,1,6,4,2,};
 		isort.sort(a);
@@ -58275,7 +58275,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10286() {
+	public void testA286() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,3,5,6,4,2,};
 		isort.sort(a);
@@ -58287,7 +58287,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10287() {
+	public void testA287() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,1,5,6,4,2,};
 		isort.sort(a);
@@ -58299,7 +58299,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10288() {
+	public void testA288() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,6,5,1,4,2,};
 		isort.sort(a);
@@ -58311,7 +58311,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10289() {
+	public void testA289() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,3,5,1,4,2,};
 		isort.sort(a);
@@ -58323,7 +58323,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10290() {
+	public void testA290() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,3,6,1,4,2,};
 		isort.sort(a);
@@ -58335,7 +58335,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10291() {
+	public void testA291() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,5,6,1,4,2,};
 		isort.sort(a);
@@ -58347,7 +58347,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10292() {
+	public void testA292() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,5,3,1,4,2,};
 		isort.sort(a);
@@ -58359,7 +58359,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10293() {
+	public void testA293() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,6,3,1,4,2,};
 		isort.sort(a);
@@ -58371,7 +58371,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10294() {
+	public void testA294() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,6,1,3,4,2,};
 		isort.sort(a);
@@ -58383,7 +58383,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10295() {
+	public void testA295() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,5,1,3,4,2,};
 		isort.sort(a);
@@ -58395,7 +58395,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10296() {
+	public void testA296() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,5,6,3,4,2,};
 		isort.sort(a);
@@ -58407,7 +58407,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10297() {
+	public void testA297() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,1,6,3,4,2,};
 		isort.sort(a);
@@ -58419,7 +58419,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10298() {
+	public void testA298() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,1,5,3,4,2,};
 		isort.sort(a);
@@ -58431,7 +58431,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10299() {
+	public void testA299() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,6,5,3,4,2,};
 		isort.sort(a);
@@ -58443,7 +58443,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10300() {
+	public void testA300() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,6,5,3,1,2,};
 		isort.sort(a);
@@ -58455,7 +58455,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10301() {
+	public void testA301() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,4,5,3,1,2,};
 		isort.sort(a);
@@ -58467,7 +58467,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10302() {
+	public void testA302() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,4,6,3,1,2,};
 		isort.sort(a);
@@ -58479,7 +58479,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10303() {
+	public void testA303() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,5,6,3,1,2,};
 		isort.sort(a);
@@ -58491,7 +58491,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10304() {
+	public void testA304() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,5,4,3,1,2,};
 		isort.sort(a);
@@ -58503,7 +58503,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10305() {
+	public void testA305() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,6,4,3,1,2,};
 		isort.sort(a);
@@ -58515,7 +58515,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10306() {
+	public void testA306() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,6,4,5,1,2,};
 		isort.sort(a);
@@ -58527,7 +58527,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10307() {
+	public void testA307() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,3,4,5,1,2,};
 		isort.sort(a);
@@ -58539,7 +58539,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10308() {
+	public void testA308() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,3,6,5,1,2,};
 		isort.sort(a);
@@ -58551,7 +58551,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10309() {
+	public void testA309() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,4,6,5,1,2,};
 		isort.sort(a);
@@ -58563,7 +58563,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10310() {
+	public void testA310() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,4,3,5,1,2,};
 		isort.sort(a);
@@ -58575,7 +58575,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10311() {
+	public void testA311() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,6,3,5,1,2,};
 		isort.sort(a);
@@ -58587,7 +58587,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10312() {
+	public void testA312() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,5,3,6,1,2,};
 		isort.sort(a);
@@ -58599,7 +58599,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10313() {
+	public void testA313() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,4,3,6,1,2,};
 		isort.sort(a);
@@ -58611,7 +58611,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10314() {
+	public void testA314() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,4,5,6,1,2,};
 		isort.sort(a);
@@ -58623,7 +58623,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10315() {
+	public void testA315() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,3,5,6,1,2,};
 		isort.sort(a);
@@ -58635,7 +58635,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10316() {
+	public void testA316() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,3,4,6,1,2,};
 		isort.sort(a);
@@ -58647,7 +58647,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10317() {
+	public void testA317() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,5,4,6,1,2,};
 		isort.sort(a);
@@ -58659,7 +58659,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10318() {
+	public void testA318() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,5,6,4,1,2,};
 		isort.sort(a);
@@ -58671,7 +58671,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10319() {
+	public void testA319() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,3,6,4,1,2,};
 		isort.sort(a);
@@ -58683,7 +58683,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10320() {
+	public void testA320() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,3,5,4,1,2,};
 		isort.sort(a);
@@ -58695,7 +58695,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10321() {
+	public void testA321() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,6,5,4,1,2,};
 		isort.sort(a);
@@ -58707,7 +58707,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10322() {
+	public void testA322() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,6,3,4,1,2,};
 		isort.sort(a);
@@ -58719,7 +58719,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10323() {
+	public void testA323() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,5,3,4,1,2,};
 		isort.sort(a);
@@ -58731,7 +58731,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10324() {
+	public void testA324() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,5,2,4,1,3,};
 		isort.sort(a);
@@ -58743,7 +58743,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10325() {
+	public void testA325() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,6,2,4,1,3,};
 		isort.sort(a);
@@ -58755,7 +58755,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10326() {
+	public void testA326() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,6,5,4,1,3,};
 		isort.sort(a);
@@ -58767,7 +58767,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10327() {
+	public void testA327() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,2,5,4,1,3,};
 		isort.sort(a);
@@ -58779,7 +58779,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10328() {
+	public void testA328() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,2,6,4,1,3,};
 		isort.sort(a);
@@ -58791,7 +58791,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10329() {
+	public void testA329() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,5,6,4,1,3,};
 		isort.sort(a);
@@ -58803,7 +58803,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10330() {
+	public void testA330() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,5,6,2,1,3,};
 		isort.sort(a);
@@ -58815,7 +58815,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10331() {
+	public void testA331() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,4,6,2,1,3,};
 		isort.sort(a);
@@ -58827,7 +58827,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10332() {
+	public void testA332() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,4,5,2,1,3,};
 		isort.sort(a);
@@ -58839,7 +58839,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10333() {
+	public void testA333() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,6,5,2,1,3,};
 		isort.sort(a);
@@ -58851,7 +58851,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10334() {
+	public void testA334() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,6,4,2,1,3,};
 		isort.sort(a);
@@ -58863,7 +58863,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10335() {
+	public void testA335() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,5,4,2,1,3,};
 		isort.sort(a);
@@ -58875,7 +58875,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10336() {
+	public void testA336() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,2,4,5,1,3,};
 		isort.sort(a);
@@ -58887,7 +58887,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10337() {
+	public void testA337() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,6,4,5,1,3,};
 		isort.sort(a);
@@ -58899,7 +58899,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10338() {
+	public void testA338() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,6,2,5,1,3,};
 		isort.sort(a);
@@ -58911,7 +58911,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10339() {
+	public void testA339() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,4,2,5,1,3,};
 		isort.sort(a);
@@ -58923,7 +58923,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10340() {
+	public void testA340() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,4,6,5,1,3,};
 		isort.sort(a);
@@ -58935,7 +58935,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10341() {
+	public void testA341() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,2,6,5,1,3,};
 		isort.sort(a);
@@ -58947,7 +58947,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10342() {
+	public void testA342() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,2,5,6,1,3,};
 		isort.sort(a);
@@ -58959,7 +58959,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10343() {
+	public void testA343() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,4,5,6,1,3,};
 		isort.sort(a);
@@ -58971,7 +58971,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10344() {
+	public void testA344() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,4,2,6,1,3,};
 		isort.sort(a);
@@ -58983,7 +58983,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10345() {
+	public void testA345() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,5,2,6,1,3,};
 		isort.sort(a);
@@ -58995,7 +58995,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10346() {
+	public void testA346() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,5,4,6,1,3,};
 		isort.sort(a);
@@ -59007,7 +59007,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10347() {
+	public void testA347() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,2,4,6,1,3,};
 		isort.sort(a);
@@ -59019,7 +59019,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10348() {
+	public void testA348() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,2,4,6,5,3,};
 		isort.sort(a);
@@ -59031,7 +59031,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10349() {
+	public void testA349() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,1,4,6,5,3,};
 		isort.sort(a);
@@ -59043,7 +59043,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10350() {
+	public void testA350() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,1,2,6,5,3,};
 		isort.sort(a);
@@ -59055,7 +59055,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10351() {
+	public void testA351() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,4,2,6,5,3,};
 		isort.sort(a);
@@ -59067,7 +59067,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10352() {
+	public void testA352() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,4,1,6,5,3,};
 		isort.sort(a);
@@ -59079,7 +59079,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10353() {
+	public void testA353() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,2,1,6,5,3,};
 		isort.sort(a);
@@ -59091,7 +59091,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10354() {
+	public void testA354() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,2,1,4,5,3,};
 		isort.sort(a);
@@ -59103,7 +59103,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10355() {
+	public void testA355() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,6,1,4,5,3,};
 		isort.sort(a);
@@ -59115,7 +59115,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10356() {
+	public void testA356() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,6,2,4,5,3,};
 		isort.sort(a);
@@ -59127,7 +59127,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10357() {
+	public void testA357() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,1,2,4,5,3,};
 		isort.sort(a);
@@ -59139,7 +59139,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10358() {
+	public void testA358() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,1,6,4,5,3,};
 		isort.sort(a);
@@ -59151,7 +59151,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10359() {
+	public void testA359() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,2,6,4,5,3,};
 		isort.sort(a);
@@ -59163,7 +59163,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10360() {
+	public void testA360() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,4,6,2,5,3,};
 		isort.sort(a);
@@ -59175,7 +59175,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10361() {
+	public void testA361() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,1,6,2,5,3,};
 		isort.sort(a);
@@ -59187,7 +59187,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10362() {
+	public void testA362() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,1,4,2,5,3,};
 		isort.sort(a);
@@ -59199,7 +59199,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10363() {
+	public void testA363() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,6,4,2,5,3,};
 		isort.sort(a);
@@ -59211,7 +59211,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10364() {
+	public void testA364() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,6,1,2,5,3,};
 		isort.sort(a);
@@ -59223,7 +59223,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10365() {
+	public void testA365() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,4,1,2,5,3,};
 		isort.sort(a);
@@ -59235,7 +59235,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10366() {
+	public void testA366() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,4,2,1,5,3,};
 		isort.sort(a);
@@ -59247,7 +59247,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10367() {
+	public void testA367() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,6,2,1,5,3,};
 		isort.sort(a);
@@ -59259,7 +59259,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10368() {
+	public void testA368() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,6,4,1,5,3,};
 		isort.sort(a);
@@ -59271,7 +59271,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10369() {
+	public void testA369() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,2,4,1,5,3,};
 		isort.sort(a);
@@ -59283,7 +59283,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10370() {
+	public void testA370() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,2,6,1,5,3,};
 		isort.sort(a);
@@ -59295,7 +59295,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10371() {
+	public void testA371() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,4,6,1,5,3,};
 		isort.sort(a);
@@ -59307,7 +59307,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10372() {
+	public void testA372() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,4,6,1,2,3,};
 		isort.sort(a);
@@ -59319,7 +59319,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10373() {
+	public void testA373() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,5,6,1,2,3,};
 		isort.sort(a);
@@ -59331,7 +59331,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10374() {
+	public void testA374() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,5,4,1,2,3,};
 		isort.sort(a);
@@ -59343,7 +59343,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10375() {
+	public void testA375() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,6,4,1,2,3,};
 		isort.sort(a);
@@ -59355,7 +59355,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10376() {
+	public void testA376() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,6,5,1,2,3,};
 		isort.sort(a);
@@ -59367,7 +59367,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10377() {
+	public void testA377() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,4,5,1,2,3,};
 		isort.sort(a);
@@ -59379,7 +59379,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10378() {
+	public void testA378() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,4,5,6,2,3,};
 		isort.sort(a);
@@ -59391,7 +59391,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10379() {
+	public void testA379() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,1,5,6,2,3,};
 		isort.sort(a);
@@ -59403,7 +59403,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10380() {
+	public void testA380() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,1,4,6,2,3,};
 		isort.sort(a);
@@ -59415,7 +59415,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10381() {
+	public void testA381() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,5,4,6,2,3,};
 		isort.sort(a);
@@ -59427,7 +59427,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10382() {
+	public void testA382() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,5,1,6,2,3,};
 		isort.sort(a);
@@ -59439,7 +59439,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10383() {
+	public void testA383() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,4,1,6,2,3,};
 		isort.sort(a);
@@ -59451,7 +59451,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10384() {
+	public void testA384() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,6,1,4,2,3,};
 		isort.sort(a);
@@ -59463,7 +59463,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10385() {
+	public void testA385() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,5,1,4,2,3,};
 		isort.sort(a);
@@ -59475,7 +59475,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10386() {
+	public void testA386() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,5,6,4,2,3,};
 		isort.sort(a);
@@ -59487,7 +59487,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10387() {
+	public void testA387() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,1,6,4,2,3,};
 		isort.sort(a);
@@ -59499,7 +59499,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10388() {
+	public void testA388() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,1,5,4,2,3,};
 		isort.sort(a);
@@ -59511,7 +59511,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10389() {
+	public void testA389() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,6,5,4,2,3,};
 		isort.sort(a);
@@ -59523,7 +59523,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10390() {
+	public void testA390() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,6,4,5,2,3,};
 		isort.sort(a);
@@ -59535,7 +59535,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10391() {
+	public void testA391() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,1,4,5,2,3,};
 		isort.sort(a);
@@ -59547,7 +59547,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10392() {
+	public void testA392() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,1,6,5,2,3,};
 		isort.sort(a);
@@ -59559,7 +59559,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10393() {
+	public void testA393() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,4,6,5,2,3,};
 		isort.sort(a);
@@ -59571,7 +59571,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10394() {
+	public void testA394() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,4,1,5,2,3,};
 		isort.sort(a);
@@ -59583,7 +59583,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10395() {
+	public void testA395() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,6,1,5,2,3,};
 		isort.sort(a);
@@ -59595,7 +59595,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10396() {
+	public void testA396() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,6,1,5,4,3,};
 		isort.sort(a);
@@ -59607,7 +59607,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10397() {
+	public void testA397() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,2,1,5,4,3,};
 		isort.sort(a);
@@ -59619,7 +59619,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10398() {
+	public void testA398() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,2,6,5,4,3,};
 		isort.sort(a);
@@ -59631,7 +59631,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10399() {
+	public void testA399() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,1,6,5,4,3,};
 		isort.sort(a);
@@ -59643,7 +59643,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10400() {
+	public void testA400() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,1,2,5,4,3,};
 		isort.sort(a);
@@ -59655,7 +59655,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10401() {
+	public void testA401() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,6,2,5,4,3,};
 		isort.sort(a);
@@ -59667,7 +59667,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10402() {
+	public void testA402() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,6,2,1,4,3,};
 		isort.sort(a);
@@ -59679,7 +59679,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10403() {
+	public void testA403() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,5,2,1,4,3,};
 		isort.sort(a);
@@ -59691,7 +59691,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10404() {
+	public void testA404() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,5,6,1,4,3,};
 		isort.sort(a);
@@ -59703,7 +59703,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10405() {
+	public void testA405() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,2,6,1,4,3,};
 		isort.sort(a);
@@ -59715,7 +59715,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10406() {
+	public void testA406() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,2,5,1,4,3,};
 		isort.sort(a);
@@ -59727,7 +59727,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10407() {
+	public void testA407() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,6,5,1,4,3,};
 		isort.sort(a);
@@ -59739,7 +59739,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10408() {
+	public void testA408() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,1,5,6,4,3,};
 		isort.sort(a);
@@ -59751,7 +59751,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10409() {
+	public void testA409() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,2,5,6,4,3,};
 		isort.sort(a);
@@ -59763,7 +59763,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10410() {
+	public void testA410() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,2,1,6,4,3,};
 		isort.sort(a);
@@ -59775,7 +59775,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10411() {
+	public void testA411() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,5,1,6,4,3,};
 		isort.sort(a);
@@ -59787,7 +59787,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10412() {
+	public void testA412() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,5,2,6,4,3,};
 		isort.sort(a);
@@ -59799,7 +59799,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10413() {
+	public void testA413() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,1,2,6,4,3,};
 		isort.sort(a);
@@ -59811,7 +59811,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10414() {
+	public void testA414() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,1,6,2,4,3,};
 		isort.sort(a);
@@ -59823,7 +59823,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10415() {
+	public void testA415() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,5,6,2,4,3,};
 		isort.sort(a);
@@ -59835,7 +59835,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10416() {
+	public void testA416() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,5,1,2,4,3,};
 		isort.sort(a);
@@ -59847,7 +59847,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10417() {
+	public void testA417() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,6,1,2,4,3,};
 		isort.sort(a);
@@ -59859,7 +59859,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10418() {
+	public void testA418() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,6,5,2,4,3,};
 		isort.sort(a);
@@ -59871,7 +59871,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10419() {
+	public void testA419() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,1,5,2,4,3,};
 		isort.sort(a);
@@ -59883,7 +59883,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10420() {
+	public void testA420() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,1,5,2,6,3,};
 		isort.sort(a);
@@ -59895,7 +59895,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10421() {
+	public void testA421() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,4,5,2,6,3,};
 		isort.sort(a);
@@ -59907,7 +59907,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10422() {
+	public void testA422() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,4,1,2,6,3,};
 		isort.sort(a);
@@ -59919,7 +59919,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10423() {
+	public void testA423() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,5,1,2,6,3,};
 		isort.sort(a);
@@ -59931,7 +59931,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10424() {
+	public void testA424() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,5,4,2,6,3,};
 		isort.sort(a);
@@ -59943,7 +59943,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10425() {
+	public void testA425() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,1,4,2,6,3,};
 		isort.sort(a);
@@ -59955,7 +59955,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10426() {
+	public void testA426() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,1,4,5,6,3,};
 		isort.sort(a);
@@ -59967,7 +59967,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10427() {
+	public void testA427() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,2,4,5,6,3,};
 		isort.sort(a);
@@ -59979,7 +59979,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10428() {
+	public void testA428() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,2,1,5,6,3,};
 		isort.sort(a);
@@ -59991,7 +59991,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10429() {
+	public void testA429() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,4,1,5,6,3,};
 		isort.sort(a);
@@ -60003,7 +60003,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10430() {
+	public void testA430() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,4,2,5,6,3,};
 		isort.sort(a);
@@ -60015,7 +60015,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10431() {
+	public void testA431() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,1,2,5,6,3,};
 		isort.sort(a);
@@ -60027,7 +60027,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10432() {
+	public void testA432() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,5,2,1,6,3,};
 		isort.sort(a);
@@ -60039,7 +60039,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10433() {
+	public void testA433() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,4,2,1,6,3,};
 		isort.sort(a);
@@ -60051,7 +60051,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10434() {
+	public void testA434() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,4,5,1,6,3,};
 		isort.sort(a);
@@ -60063,7 +60063,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10435() {
+	public void testA435() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,2,5,1,6,3,};
 		isort.sort(a);
@@ -60075,7 +60075,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10436() {
+	public void testA436() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,2,4,1,6,3,};
 		isort.sort(a);
@@ -60087,7 +60087,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10437() {
+	public void testA437() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,5,4,1,6,3,};
 		isort.sort(a);
@@ -60099,7 +60099,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10438() {
+	public void testA438() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,5,1,4,6,3,};
 		isort.sort(a);
@@ -60111,7 +60111,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10439() {
+	public void testA439() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,2,1,4,6,3,};
 		isort.sort(a);
@@ -60123,7 +60123,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10440() {
+	public void testA440() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,2,5,4,6,3,};
 		isort.sort(a);
@@ -60135,7 +60135,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10441() {
+	public void testA441() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,1,5,4,6,3,};
 		isort.sort(a);
@@ -60147,7 +60147,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10442() {
+	public void testA442() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,1,2,4,6,3,};
 		isort.sort(a);
@@ -60159,7 +60159,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10443() {
+	public void testA443() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,5,2,4,6,3,};
 		isort.sort(a);
@@ -60171,7 +60171,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10444() {
+	public void testA444() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,5,2,3,6,4,};
 		isort.sort(a);
@@ -60183,7 +60183,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10445() {
+	public void testA445() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,1,2,3,6,4,};
 		isort.sort(a);
@@ -60195,7 +60195,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10446() {
+	public void testA446() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,1,5,3,6,4,};
 		isort.sort(a);
@@ -60207,7 +60207,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10447() {
+	public void testA447() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,2,5,3,6,4,};
 		isort.sort(a);
@@ -60219,7 +60219,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10448() {
+	public void testA448() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,2,1,3,6,4,};
 		isort.sort(a);
@@ -60231,7 +60231,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10449() {
+	public void testA449() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,5,1,3,6,4,};
 		isort.sort(a);
@@ -60243,7 +60243,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10450() {
+	public void testA450() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,5,1,2,6,4,};
 		isort.sort(a);
@@ -60255,7 +60255,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10451() {
+	public void testA451() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,3,1,2,6,4,};
 		isort.sort(a);
@@ -60267,7 +60267,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10452() {
+	public void testA452() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,3,5,2,6,4,};
 		isort.sort(a);
@@ -60279,7 +60279,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10453() {
+	public void testA453() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,1,5,2,6,4,};
 		isort.sort(a);
@@ -60291,7 +60291,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10454() {
+	public void testA454() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,1,3,2,6,4,};
 		isort.sort(a);
@@ -60303,7 +60303,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10455() {
+	public void testA455() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,5,3,2,6,4,};
 		isort.sort(a);
@@ -60315,7 +60315,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10456() {
+	public void testA456() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,2,3,5,6,4,};
 		isort.sort(a);
@@ -60327,7 +60327,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10457() {
+	public void testA457() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,1,3,5,6,4,};
 		isort.sort(a);
@@ -60339,7 +60339,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10458() {
+	public void testA458() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,1,2,5,6,4,};
 		isort.sort(a);
@@ -60351,7 +60351,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10459() {
+	public void testA459() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,3,2,5,6,4,};
 		isort.sort(a);
@@ -60363,7 +60363,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10460() {
+	public void testA460() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,3,1,5,6,4,};
 		isort.sort(a);
@@ -60375,7 +60375,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10461() {
+	public void testA461() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,2,1,5,6,4,};
 		isort.sort(a);
@@ -60387,7 +60387,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10462() {
+	public void testA462() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,2,5,1,6,4,};
 		isort.sort(a);
@@ -60399,7 +60399,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10463() {
+	public void testA463() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,3,5,1,6,4,};
 		isort.sort(a);
@@ -60411,7 +60411,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10464() {
+	public void testA464() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,3,2,1,6,4,};
 		isort.sort(a);
@@ -60423,7 +60423,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10465() {
+	public void testA465() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,5,2,1,6,4,};
 		isort.sort(a);
@@ -60435,7 +60435,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10466() {
+	public void testA466() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,5,3,1,6,4,};
 		isort.sort(a);
@@ -60447,7 +60447,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10467() {
+	public void testA467() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,2,3,1,6,4,};
 		isort.sort(a);
@@ -60459,7 +60459,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10468() {
+	public void testA468() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,2,3,1,5,4,};
 		isort.sort(a);
@@ -60471,7 +60471,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10469() {
+	public void testA469() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,6,3,1,5,4,};
 		isort.sort(a);
@@ -60483,7 +60483,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10470() {
+	public void testA470() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,6,2,1,5,4,};
 		isort.sort(a);
@@ -60495,7 +60495,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10471() {
+	public void testA471() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,3,2,1,5,4,};
 		isort.sort(a);
@@ -60507,7 +60507,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10472() {
+	public void testA472() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,3,6,1,5,4,};
 		isort.sort(a);
@@ -60519,7 +60519,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10473() {
+	public void testA473() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,2,6,1,5,4,};
 		isort.sort(a);
@@ -60531,7 +60531,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10474() {
+	public void testA474() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,2,6,3,5,4,};
 		isort.sort(a);
@@ -60543,7 +60543,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10475() {
+	public void testA475() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,1,6,3,5,4,};
 		isort.sort(a);
@@ -60555,7 +60555,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10476() {
+	public void testA476() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,1,2,3,5,4,};
 		isort.sort(a);
@@ -60567,7 +60567,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10477() {
+	public void testA477() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,6,2,3,5,4,};
 		isort.sort(a);
@@ -60579,7 +60579,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10478() {
+	public void testA478() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,6,1,3,5,4,};
 		isort.sort(a);
@@ -60591,7 +60591,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10479() {
+	public void testA479() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,2,1,3,5,4,};
 		isort.sort(a);
@@ -60603,7 +60603,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10480() {
+	public void testA480() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,3,1,2,5,4,};
 		isort.sort(a);
@@ -60615,7 +60615,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10481() {
+	public void testA481() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,6,1,2,5,4,};
 		isort.sort(a);
@@ -60627,7 +60627,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10482() {
+	public void testA482() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,6,3,2,5,4,};
 		isort.sort(a);
@@ -60639,7 +60639,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10483() {
+	public void testA483() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,1,3,2,5,4,};
 		isort.sort(a);
@@ -60651,7 +60651,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10484() {
+	public void testA484() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,1,6,2,5,4,};
 		isort.sort(a);
@@ -60663,7 +60663,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10485() {
+	public void testA485() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,3,6,2,5,4,};
 		isort.sort(a);
@@ -60675,7 +60675,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10486() {
+	public void testA486() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,3,2,6,5,4,};
 		isort.sort(a);
@@ -60687,7 +60687,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10487() {
+	public void testA487() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,1,2,6,5,4,};
 		isort.sort(a);
@@ -60699,7 +60699,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10488() {
+	public void testA488() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,1,3,6,5,4,};
 		isort.sort(a);
@@ -60711,7 +60711,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10489() {
+	public void testA489() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,2,3,6,5,4,};
 		isort.sort(a);
@@ -60723,7 +60723,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10490() {
+	public void testA490() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,2,1,6,5,4,};
 		isort.sort(a);
@@ -60735,7 +60735,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10491() {
+	public void testA491() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,3,1,6,5,4,};
 		isort.sort(a);
@@ -60747,7 +60747,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10492() {
+	public void testA492() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,3,1,6,2,4,};
 		isort.sort(a);
@@ -60759,7 +60759,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10493() {
+	public void testA493() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,5,1,6,2,4,};
 		isort.sort(a);
@@ -60771,7 +60771,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10494() {
+	public void testA494() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,5,3,6,2,4,};
 		isort.sort(a);
@@ -60783,7 +60783,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10495() {
+	public void testA495() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,1,3,6,2,4,};
 		isort.sort(a);
@@ -60795,7 +60795,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10496() {
+	public void testA496() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,1,5,6,2,4,};
 		isort.sort(a);
@@ -60807,7 +60807,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10497() {
+	public void testA497() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,3,5,6,2,4,};
 		isort.sort(a);
@@ -60819,7 +60819,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10498() {
+	public void testA498() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,3,5,1,2,4,};
 		isort.sort(a);
@@ -60831,7 +60831,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10499() {
+	public void testA499() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,6,5,1,2,4,};
 		isort.sort(a);
@@ -60843,7 +60843,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10500() {
+	public void testA500() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,6,3,1,2,4,};
 		isort.sort(a);
@@ -60855,7 +60855,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10501() {
+	public void testA501() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,5,3,1,2,4,};
 		isort.sort(a);
@@ -60867,7 +60867,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10502() {
+	public void testA502() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,5,6,1,2,4,};
 		isort.sort(a);
@@ -60879,7 +60879,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10503() {
+	public void testA503() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,3,6,1,2,4,};
 		isort.sort(a);
@@ -60891,7 +60891,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10504() {
+	public void testA504() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,1,6,3,2,4,};
 		isort.sort(a);
@@ -60903,7 +60903,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10505() {
+	public void testA505() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,5,6,3,2,4,};
 		isort.sort(a);
@@ -60915,7 +60915,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10506() {
+	public void testA506() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,5,1,3,2,4,};
 		isort.sort(a);
@@ -60927,7 +60927,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10507() {
+	public void testA507() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,6,1,3,2,4,};
 		isort.sort(a);
@@ -60939,7 +60939,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10508() {
+	public void testA508() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,6,5,3,2,4,};
 		isort.sort(a);
@@ -60951,7 +60951,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10509() {
+	public void testA509() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,1,5,3,2,4,};
 		isort.sort(a);
@@ -60963,7 +60963,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10510() {
+	public void testA510() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,1,3,5,2,4,};
 		isort.sort(a);
@@ -60975,7 +60975,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10511() {
+	public void testA511() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,6,3,5,2,4,};
 		isort.sort(a);
@@ -60987,7 +60987,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10512() {
+	public void testA512() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,6,1,5,2,4,};
 		isort.sort(a);
@@ -60999,7 +60999,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10513() {
+	public void testA513() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,3,1,5,2,4,};
 		isort.sort(a);
@@ -61011,7 +61011,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10514() {
+	public void testA514() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,3,6,5,2,4,};
 		isort.sort(a);
@@ -61023,7 +61023,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10515() {
+	public void testA515() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,1,6,5,2,4,};
 		isort.sort(a);
@@ -61035,7 +61035,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10516() {
+	public void testA516() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,1,6,5,3,4,};
 		isort.sort(a);
@@ -61047,7 +61047,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10517() {
+	public void testA517() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,2,6,5,3,4,};
 		isort.sort(a);
@@ -61059,7 +61059,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10518() {
+	public void testA518() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,2,1,5,3,4,};
 		isort.sort(a);
@@ -61071,7 +61071,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10519() {
+	public void testA519() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,6,1,5,3,4,};
 		isort.sort(a);
@@ -61083,7 +61083,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10520() {
+	public void testA520() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,6,2,5,3,4,};
 		isort.sort(a);
@@ -61095,7 +61095,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10521() {
+	public void testA521() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,1,2,5,3,4,};
 		isort.sort(a);
@@ -61107,7 +61107,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10522() {
+	public void testA522() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,1,2,6,3,4,};
 		isort.sort(a);
@@ -61119,7 +61119,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10523() {
+	public void testA523() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,5,2,6,3,4,};
 		isort.sort(a);
@@ -61131,7 +61131,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10524() {
+	public void testA524() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,5,1,6,3,4,};
 		isort.sort(a);
@@ -61143,7 +61143,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10525() {
+	public void testA525() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,2,1,6,3,4,};
 		isort.sort(a);
@@ -61155,7 +61155,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10526() {
+	public void testA526() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,2,5,6,3,4,};
 		isort.sort(a);
@@ -61167,7 +61167,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10527() {
+	public void testA527() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,1,5,6,3,4,};
 		isort.sort(a);
@@ -61179,7 +61179,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10528() {
+	public void testA528() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,6,5,1,3,4,};
 		isort.sort(a);
@@ -61191,7 +61191,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10529() {
+	public void testA529() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,2,5,1,3,4,};
 		isort.sort(a);
@@ -61203,7 +61203,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10530() {
+	public void testA530() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,2,6,1,3,4,};
 		isort.sort(a);
@@ -61215,7 +61215,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10531() {
+	public void testA531() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,5,6,1,3,4,};
 		isort.sort(a);
@@ -61227,7 +61227,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10532() {
+	public void testA532() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,5,2,1,3,4,};
 		isort.sort(a);
@@ -61239,7 +61239,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10533() {
+	public void testA533() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,6,2,1,3,4,};
 		isort.sort(a);
@@ -61251,7 +61251,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10534() {
+	public void testA534() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,6,1,2,3,4,};
 		isort.sort(a);
@@ -61263,7 +61263,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10535() {
+	public void testA535() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,5,1,2,3,4,};
 		isort.sort(a);
@@ -61275,7 +61275,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10536() {
+	public void testA536() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,5,6,2,3,4,};
 		isort.sort(a);
@@ -61287,7 +61287,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10537() {
+	public void testA537() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,1,6,2,3,4,};
 		isort.sort(a);
@@ -61299,7 +61299,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10538() {
+	public void testA538() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,1,5,2,3,4,};
 		isort.sort(a);
@@ -61311,7 +61311,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10539() {
+	public void testA539() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{1,6,5,2,3,4,};
 		isort.sort(a);
@@ -61323,7 +61323,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10540() {
+	public void testA540() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,6,5,2,1,4,};
 		isort.sort(a);
@@ -61335,7 +61335,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10541() {
+	public void testA541() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,3,5,2,1,4,};
 		isort.sort(a);
@@ -61347,7 +61347,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10542() {
+	public void testA542() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,3,6,2,1,4,};
 		isort.sort(a);
@@ -61359,7 +61359,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10543() {
+	public void testA543() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,5,6,2,1,4,};
 		isort.sort(a);
@@ -61371,7 +61371,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10544() {
+	public void testA544() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,5,3,2,1,4,};
 		isort.sort(a);
@@ -61383,7 +61383,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10545() {
+	public void testA545() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,6,3,2,1,4,};
 		isort.sort(a);
@@ -61395,7 +61395,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10546() {
+	public void testA546() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,6,3,5,1,4,};
 		isort.sort(a);
@@ -61407,7 +61407,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10547() {
+	public void testA547() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,2,3,5,1,4,};
 		isort.sort(a);
@@ -61419,7 +61419,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10548() {
+	public void testA548() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,2,6,5,1,4,};
 		isort.sort(a);
@@ -61431,7 +61431,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10549() {
+	public void testA549() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,3,6,5,1,4,};
 		isort.sort(a);
@@ -61443,7 +61443,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10550() {
+	public void testA550() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,3,2,5,1,4,};
 		isort.sort(a);
@@ -61455,7 +61455,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10551() {
+	public void testA551() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,6,2,5,1,4,};
 		isort.sort(a);
@@ -61467,7 +61467,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10552() {
+	public void testA552() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,5,2,6,1,4,};
 		isort.sort(a);
@@ -61479,7 +61479,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10553() {
+	public void testA553() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,3,2,6,1,4,};
 		isort.sort(a);
@@ -61491,7 +61491,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10554() {
+	public void testA554() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,3,5,6,1,4,};
 		isort.sort(a);
@@ -61503,7 +61503,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10555() {
+	public void testA555() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,2,5,6,1,4,};
 		isort.sort(a);
@@ -61515,7 +61515,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10556() {
+	public void testA556() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,2,3,6,1,4,};
 		isort.sort(a);
@@ -61527,7 +61527,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10557() {
+	public void testA557() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,5,3,6,1,4,};
 		isort.sort(a);
@@ -61539,7 +61539,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10558() {
+	public void testA558() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,5,6,3,1,4,};
 		isort.sort(a);
@@ -61551,7 +61551,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10559() {
+	public void testA559() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,2,6,3,1,4,};
 		isort.sort(a);
@@ -61563,7 +61563,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10560() {
+	public void testA560() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,2,5,3,1,4,};
 		isort.sort(a);
@@ -61575,7 +61575,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10561() {
+	public void testA561() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,6,5,3,1,4,};
 		isort.sort(a);
@@ -61587,7 +61587,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10562() {
+	public void testA562() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,6,2,3,1,4,};
 		isort.sort(a);
@@ -61599,7 +61599,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10563() {
+	public void testA563() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,5,2,3,1,4,};
 		isort.sort(a);
@@ -61611,7 +61611,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10564() {
+	public void testA564() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,5,2,3,4,1,};
 		isort.sort(a);
@@ -61623,7 +61623,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10565() {
+	public void testA565() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,6,2,3,4,1,};
 		isort.sort(a);
@@ -61635,7 +61635,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10566() {
+	public void testA566() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,6,5,3,4,1,};
 		isort.sort(a);
@@ -61647,7 +61647,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10567() {
+	public void testA567() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,2,5,3,4,1,};
 		isort.sort(a);
@@ -61659,7 +61659,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10568() {
+	public void testA568() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,2,6,3,4,1,};
 		isort.sort(a);
@@ -61671,7 +61671,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10569() {
+	public void testA569() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,5,6,3,4,1,};
 		isort.sort(a);
@@ -61683,7 +61683,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10570() {
+	public void testA570() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,5,6,2,4,1,};
 		isort.sort(a);
@@ -61695,7 +61695,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10571() {
+	public void testA571() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,3,6,2,4,1,};
 		isort.sort(a);
@@ -61707,7 +61707,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10572() {
+	public void testA572() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,3,5,2,4,1,};
 		isort.sort(a);
@@ -61719,7 +61719,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10573() {
+	public void testA573() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,6,5,2,4,1,};
 		isort.sort(a);
@@ -61731,7 +61731,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10574() {
+	public void testA574() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,6,3,2,4,1,};
 		isort.sort(a);
@@ -61743,7 +61743,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10575() {
+	public void testA575() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,5,3,2,4,1,};
 		isort.sort(a);
@@ -61755,7 +61755,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10576() {
+	public void testA576() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,2,3,5,4,1,};
 		isort.sort(a);
@@ -61767,7 +61767,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10577() {
+	public void testA577() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,6,3,5,4,1,};
 		isort.sort(a);
@@ -61779,7 +61779,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10578() {
+	public void testA578() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,6,2,5,4,1,};
 		isort.sort(a);
@@ -61791,7 +61791,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10579() {
+	public void testA579() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,3,2,5,4,1,};
 		isort.sort(a);
@@ -61803,7 +61803,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10580() {
+	public void testA580() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,3,6,5,4,1,};
 		isort.sort(a);
@@ -61815,7 +61815,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10581() {
+	public void testA581() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,2,6,5,4,1,};
 		isort.sort(a);
@@ -61827,7 +61827,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10582() {
+	public void testA582() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,2,5,6,4,1,};
 		isort.sort(a);
@@ -61839,7 +61839,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10583() {
+	public void testA583() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,3,5,6,4,1,};
 		isort.sort(a);
@@ -61851,7 +61851,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10584() {
+	public void testA584() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,3,2,6,4,1,};
 		isort.sort(a);
@@ -61863,7 +61863,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10585() {
+	public void testA585() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,5,2,6,4,1,};
 		isort.sort(a);
@@ -61875,7 +61875,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10586() {
+	public void testA586() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,5,3,6,4,1,};
 		isort.sort(a);
@@ -61887,7 +61887,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10587() {
+	public void testA587() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,2,3,6,4,1,};
 		isort.sort(a);
@@ -61899,7 +61899,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10588() {
+	public void testA588() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,2,3,6,5,1,};
 		isort.sort(a);
@@ -61911,7 +61911,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10589() {
+	public void testA589() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,4,3,6,5,1,};
 		isort.sort(a);
@@ -61923,7 +61923,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10590() {
+	public void testA590() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,4,2,6,5,1,};
 		isort.sort(a);
@@ -61935,7 +61935,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10591() {
+	public void testA591() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,3,2,6,5,1,};
 		isort.sort(a);
@@ -61947,7 +61947,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10592() {
+	public void testA592() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,3,4,6,5,1,};
 		isort.sort(a);
@@ -61959,7 +61959,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10593() {
+	public void testA593() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,2,4,6,5,1,};
 		isort.sort(a);
@@ -61971,7 +61971,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10594() {
+	public void testA594() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,2,4,3,5,1,};
 		isort.sort(a);
@@ -61983,7 +61983,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10595() {
+	public void testA595() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,6,4,3,5,1,};
 		isort.sort(a);
@@ -61995,7 +61995,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10596() {
+	public void testA596() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,6,2,3,5,1,};
 		isort.sort(a);
@@ -62007,7 +62007,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10597() {
+	public void testA597() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,4,2,3,5,1,};
 		isort.sort(a);
@@ -62019,7 +62019,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10598() {
+	public void testA598() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,4,6,3,5,1,};
 		isort.sort(a);
@@ -62031,7 +62031,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10599() {
+	public void testA599() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,2,6,3,5,1,};
 		isort.sort(a);
@@ -62043,7 +62043,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10600() {
+	public void testA600() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,3,6,2,5,1,};
 		isort.sort(a);
@@ -62055,7 +62055,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10601() {
+	public void testA601() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,4,6,2,5,1,};
 		isort.sort(a);
@@ -62067,7 +62067,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10602() {
+	public void testA602() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,4,3,2,5,1,};
 		isort.sort(a);
@@ -62079,7 +62079,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10603() {
+	public void testA603() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,6,3,2,5,1,};
 		isort.sort(a);
@@ -62091,7 +62091,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10604() {
+	public void testA604() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,6,4,2,5,1,};
 		isort.sort(a);
@@ -62103,7 +62103,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10605() {
+	public void testA605() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,3,4,2,5,1,};
 		isort.sort(a);
@@ -62115,7 +62115,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10606() {
+	public void testA606() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,3,2,4,5,1,};
 		isort.sort(a);
@@ -62127,7 +62127,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10607() {
+	public void testA607() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,6,2,4,5,1,};
 		isort.sort(a);
@@ -62139,7 +62139,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10608() {
+	public void testA608() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,6,3,4,5,1,};
 		isort.sort(a);
@@ -62151,7 +62151,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10609() {
+	public void testA609() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,2,3,4,5,1,};
 		isort.sort(a);
@@ -62163,7 +62163,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10610() {
+	public void testA610() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,2,6,4,5,1,};
 		isort.sort(a);
@@ -62175,7 +62175,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10611() {
+	public void testA611() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,3,6,4,5,1,};
 		isort.sort(a);
@@ -62187,7 +62187,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10612() {
+	public void testA612() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,3,6,4,2,1,};
 		isort.sort(a);
@@ -62199,7 +62199,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10613() {
+	public void testA613() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,5,6,4,2,1,};
 		isort.sort(a);
@@ -62211,7 +62211,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10614() {
+	public void testA614() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,5,3,4,2,1,};
 		isort.sort(a);
@@ -62223,7 +62223,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10615() {
+	public void testA615() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,6,3,4,2,1,};
 		isort.sort(a);
@@ -62235,7 +62235,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10616() {
+	public void testA616() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,6,5,4,2,1,};
 		isort.sort(a);
@@ -62247,7 +62247,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10617() {
+	public void testA617() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,3,5,4,2,1,};
 		isort.sort(a);
@@ -62259,7 +62259,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10618() {
+	public void testA618() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,3,5,6,2,1,};
 		isort.sort(a);
@@ -62271,7 +62271,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10619() {
+	public void testA619() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,4,5,6,2,1,};
 		isort.sort(a);
@@ -62283,7 +62283,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10620() {
+	public void testA620() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,4,3,6,2,1,};
 		isort.sort(a);
@@ -62295,7 +62295,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10621() {
+	public void testA621() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,5,3,6,2,1,};
 		isort.sort(a);
@@ -62307,7 +62307,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10622() {
+	public void testA622() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,5,4,6,2,1,};
 		isort.sort(a);
@@ -62319,7 +62319,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10623() {
+	public void testA623() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,3,4,6,2,1,};
 		isort.sort(a);
@@ -62331,7 +62331,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10624() {
+	public void testA624() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,6,4,3,2,1,};
 		isort.sort(a);
@@ -62343,7 +62343,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10625() {
+	public void testA625() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,5,4,3,2,1,};
 		isort.sort(a);
@@ -62355,7 +62355,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10626() {
+	public void testA626() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,5,6,3,2,1,};
 		isort.sort(a);
@@ -62367,7 +62367,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10627() {
+	public void testA627() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,4,6,3,2,1,};
 		isort.sort(a);
@@ -62379,7 +62379,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10628() {
+	public void testA628() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,4,5,3,2,1,};
 		isort.sort(a);
@@ -62391,7 +62391,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10629() {
+	public void testA629() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,6,5,3,2,1,};
 		isort.sort(a);
@@ -62403,7 +62403,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10630() {
+	public void testA630() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,6,3,5,2,1,};
 		isort.sort(a);
@@ -62415,7 +62415,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10631() {
+	public void testA631() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,4,3,5,2,1,};
 		isort.sort(a);
@@ -62427,7 +62427,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10632() {
+	public void testA632() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,4,6,5,2,1,};
 		isort.sort(a);
@@ -62439,7 +62439,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10633() {
+	public void testA633() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,3,6,5,2,1,};
 		isort.sort(a);
@@ -62451,7 +62451,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10634() {
+	public void testA634() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,3,4,5,2,1,};
 		isort.sort(a);
@@ -62463,7 +62463,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10635() {
+	public void testA635() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,6,4,5,2,1,};
 		isort.sort(a);
@@ -62475,7 +62475,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10636() {
+	public void testA636() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,6,4,5,3,1,};
 		isort.sort(a);
@@ -62487,7 +62487,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10637() {
+	public void testA637() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,2,4,5,3,1,};
 		isort.sort(a);
@@ -62499,7 +62499,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10638() {
+	public void testA638() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,2,6,5,3,1,};
 		isort.sort(a);
@@ -62511,7 +62511,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10639() {
+	public void testA639() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,4,6,5,3,1,};
 		isort.sort(a);
@@ -62523,7 +62523,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10640() {
+	public void testA640() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,4,2,5,3,1,};
 		isort.sort(a);
@@ -62535,7 +62535,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10641() {
+	public void testA641() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,6,2,5,3,1,};
 		isort.sort(a);
@@ -62547,7 +62547,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10642() {
+	public void testA642() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,6,2,4,3,1,};
 		isort.sort(a);
@@ -62559,7 +62559,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10643() {
+	public void testA643() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,5,2,4,3,1,};
 		isort.sort(a);
@@ -62571,7 +62571,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10644() {
+	public void testA644() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,5,6,4,3,1,};
 		isort.sort(a);
@@ -62583,7 +62583,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10645() {
+	public void testA645() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,2,6,4,3,1,};
 		isort.sort(a);
@@ -62595,7 +62595,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10646() {
+	public void testA646() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,2,5,4,3,1,};
 		isort.sort(a);
@@ -62607,7 +62607,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10647() {
+	public void testA647() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,6,5,4,3,1,};
 		isort.sort(a);
@@ -62619,7 +62619,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10648() {
+	public void testA648() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,4,5,6,3,1,};
 		isort.sort(a);
@@ -62631,7 +62631,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10649() {
+	public void testA649() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,2,5,6,3,1,};
 		isort.sort(a);
@@ -62643,7 +62643,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10650() {
+	public void testA650() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,2,4,6,3,1,};
 		isort.sort(a);
@@ -62655,7 +62655,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10651() {
+	public void testA651() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,5,4,6,3,1,};
 		isort.sort(a);
@@ -62667,7 +62667,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10652() {
+	public void testA652() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,5,2,6,3,1,};
 		isort.sort(a);
@@ -62679,7 +62679,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10653() {
+	public void testA653() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,4,2,6,3,1,};
 		isort.sort(a);
@@ -62691,7 +62691,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10654() {
+	public void testA654() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,4,6,2,3,1,};
 		isort.sort(a);
@@ -62703,7 +62703,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10655() {
+	public void testA655() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,5,6,2,3,1,};
 		isort.sort(a);
@@ -62715,7 +62715,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10656() {
+	public void testA656() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,5,4,2,3,1,};
 		isort.sort(a);
@@ -62727,7 +62727,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10657() {
+	public void testA657() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,6,4,2,3,1,};
 		isort.sort(a);
@@ -62739,7 +62739,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10658() {
+	public void testA658() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,6,5,2,3,1,};
 		isort.sort(a);
@@ -62751,7 +62751,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10659() {
+	public void testA659() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{6,4,5,2,3,1,};
 		isort.sort(a);
@@ -62763,7 +62763,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10660() {
+	public void testA660() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,4,5,2,6,1,};
 		isort.sort(a);
@@ -62775,7 +62775,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10661() {
+	public void testA661() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,3,5,2,6,1,};
 		isort.sort(a);
@@ -62787,7 +62787,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10662() {
+	public void testA662() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,3,4,2,6,1,};
 		isort.sort(a);
@@ -62799,7 +62799,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10663() {
+	public void testA663() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,5,4,2,6,1,};
 		isort.sort(a);
@@ -62811,7 +62811,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10664() {
+	public void testA664() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,5,3,2,6,1,};
 		isort.sort(a);
@@ -62823,7 +62823,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10665() {
+	public void testA665() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,4,3,2,6,1,};
 		isort.sort(a);
@@ -62835,7 +62835,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10666() {
+	public void testA666() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,4,3,5,6,1,};
 		isort.sort(a);
@@ -62847,7 +62847,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10667() {
+	public void testA667() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,2,3,5,6,1,};
 		isort.sort(a);
@@ -62859,7 +62859,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10668() {
+	public void testA668() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,2,4,5,6,1,};
 		isort.sort(a);
@@ -62871,7 +62871,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10669() {
+	public void testA669() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,3,4,5,6,1,};
 		isort.sort(a);
@@ -62883,7 +62883,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10670() {
+	public void testA670() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,3,2,5,6,1,};
 		isort.sort(a);
@@ -62895,7 +62895,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10671() {
+	public void testA671() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,4,2,5,6,1,};
 		isort.sort(a);
@@ -62907,7 +62907,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10672() {
+	public void testA672() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,5,2,4,6,1,};
 		isort.sort(a);
@@ -62919,7 +62919,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10673() {
+	public void testA673() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,3,2,4,6,1,};
 		isort.sort(a);
@@ -62931,7 +62931,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10674() {
+	public void testA674() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,3,5,4,6,1,};
 		isort.sort(a);
@@ -62943,7 +62943,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10675() {
+	public void testA675() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{3,2,5,4,6,1,};
 		isort.sort(a);
@@ -62955,7 +62955,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10676() {
+	public void testA676() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,2,3,4,6,1,};
 		isort.sort(a);
@@ -62967,7 +62967,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10677() {
+	public void testA677() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,5,3,4,6,1,};
 		isort.sort(a);
@@ -62979,7 +62979,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10678() {
+	public void testA678() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,5,4,3,6,1,};
 		isort.sort(a);
@@ -62991,7 +62991,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10679() {
+	public void testA679() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,2,4,3,6,1,};
 		isort.sort(a);
@@ -63003,7 +63003,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10680() {
+	public void testA680() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,2,5,3,6,1,};
 		isort.sort(a);
@@ -63015,7 +63015,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10681() {
+	public void testA681() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{2,4,5,3,6,1,};
 		isort.sort(a);
@@ -63027,7 +63027,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10682() {
+	public void testA682() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{5,4,2,3,6,1,};
 		isort.sort(a);
@@ -63039,7 +63039,7 @@ public class TestExhaustiveInsertionSort extends TestCase {
 		assertEquals(6,a[5].intValue());
 	}
 
-	public void test10683() {
+	public void testA683() {
 		isort = new InsertionSort<>(Comparator.<Integer>naturalOrder());
 		Integer[] a = new Integer[]{4,5,2,3,6,1,};
 		isort.sort(a);
