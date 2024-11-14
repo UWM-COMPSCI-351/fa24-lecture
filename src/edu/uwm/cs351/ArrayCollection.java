@@ -9,8 +9,13 @@ import java.util.function.Consumer;
  * specialized to {@link String} objects.
  * The implementation uses dynamic arrays.
  */
-public class ArrayCollection extends AbstractCollection<String>
+public class ArrayCollection<E> extends AbstractCollection<E>
 {
+	@SuppressWarnings("unchecked")
+	private E[] makeArray(int newCap) {
+		return (E[]) new Object[newCap];
+	}
+
 	private static int INITIAL_CAPACITY = 1;
 
 	private static Consumer<String> reporter = (s) -> System.out.println("Invariant error: "+ s);
@@ -20,10 +25,13 @@ public class ArrayCollection extends AbstractCollection<String>
 		return false;
 	}
 
-	private String[ ] data;
+	private E[] data;
 	private int manyItems;
 	private int version;
 
+	public E getData(int i) {
+		return data[i];
+	}
 
 	private boolean wellFormed() {
 		// Check the invariant.
@@ -42,7 +50,7 @@ public class ArrayCollection extends AbstractCollection<String>
 	}
 	
 	public ArrayCollection() {
-		data = new String[INITIAL_CAPACITY];
+		data = makeArray(INITIAL_CAPACITY);
 		assert wellFormed() : "invariant broken at beginning";
 	}
 
@@ -53,7 +61,7 @@ public class ArrayCollection extends AbstractCollection<String>
 	}
 
 	@Override // implement
-	public boolean add(String b) {
+	public boolean add(E b) {
 		assert wellFormed() : "invariant broken at start of add()";
 		ensureCapacity(manyItems+1);
 
@@ -67,7 +75,7 @@ public class ArrayCollection extends AbstractCollection<String>
 	@Override // efficiency
 	public void clear() {
 		assert wellFormed() : "invariant broken at start of clear()";
-		data = new String[INITIAL_CAPACITY];
+		data = makeArray(INITIAL_CAPACITY);
 		if (manyItems != 0) {
 			++version;
 			manyItems = 0;
@@ -92,21 +100,21 @@ public class ArrayCollection extends AbstractCollection<String>
 		if (data.length >= minimumCapacity) return;
 		int newCap = data.length*2;
 		if (newCap < minimumCapacity) newCap = minimumCapacity;
-		String[] newData = new String[newCap];
+		E[] newData = makeArray(newCap);
 		for (int i=0; i < manyItems; ++i) {
 			newData[i] = data[i];
 		}
 		data = newData;
 		return;
 	}
-	
+
 	@Override // required
-	public Iterator<String> iterator() {
+	public Iterator<E> iterator() {
 		assert wellFormed() : "invariant broken at start of iterator()";
 		return new MyIterator();
 	}
 	
-	private class MyIterator implements Iterator<String>
+	private class MyIterator implements Iterator<E>
 	{
 		int index;
 		boolean canRemove;
@@ -139,7 +147,7 @@ public class ArrayCollection extends AbstractCollection<String>
 		}
 
 		@Override // required
-		public String next() {
+		public E next() {
 			if (!hasNext()) throw new java.util.NoSuchElementException("no more");
 			canRemove = true;
 			return data[++index];
